@@ -1,60 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="main.css"> 
+    <script src="main.js" defer> </script> 
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.3.0/math.min.js> </script> 
+</head> 
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <script src="main.js"> </script>
-    <title>Calculator</title>
-</head>
+<header class="title">
+    <h1> Gerardo's Calculator </h1> 
+</header>
 
-<body>
+<body> 
 
-<div class="row" id="row1">
+<div> 
 
-    <button type="button" id="clear_button"> C </button>
-    <button type="button" id="display_button">  </button>
+    <div class="row"> 
+        <div class="button" id="buttonClear"> C </div> 
+        <div class="button" id="buttonOutput">  </div> 
+    </div> 
 
-</div>
+    <div class="row"> 
+        <div class="button" id="buttonModulo"> % </div> 
+        <div class="button" id="buttonExponent"> ^ </div> 
+        <div class="button" id="buttonOpenPara"> ( </div> 
+        <div class="button" id="buttonClosePara"> ) </div> 
+    </div> 
 
-<div class="row" id="row2">
+    <div class="row"> 
+        <div class="button" id="button7"> 7 </div> 
+        <div class="button" id="button8"> 8 </div> 
+        <div class="button" id="button9"> 9 </div> 
+        <div class="button" id="buttonDivision"> / </div> 
+    </div> 
 
-    <button type="button" id="seven_button"> 7 </button>
-    <button type="button" id="eight_button"> 8 </button>
-    <button type="button" id="nine_button"> 9 </button>
-    <button type="button" id="division_button"> / </button>
+    <div class="row"> 
+        <div class="button" id="button4"> 4 </div> 
+        <div class="button" id="button5"> 5 </div> 
+        <div class="button" id="button6"> 6 </div> 
+        <div class="button" id="buttonMultiplication"> X </div> 
+    </div> 
 
-</div>
+    <div class="row"> 
+        <div class="button" id="button1"> 1 </div> 
+        <div class="button" id="button2"> 2 </div> 
+        <div class="button" id="button3"> 3 </div> 
+        <div class="button" id="buttonSubtraction"> - </div> 
+    </div> 
 
-<div class="row" id="row3">
+    <div class="row"> 
+        <div class="button" id="button0"> 0 </div> 
+        <div class="button" id="buttonDecimal"> . </div> 
+        <div class="button" id="buttonEquals"> = </div> 
+        <div class="button" id="buttonAddition"> + </div> 
+    </div> 
 
-    <button type="button" id="four_button"> 4 </button>
-    <button type="button" id="five_button"> 5 </button>
-    <button type="button" id="six_button"> 6 </button>
-    <button type="button" id="multiplication_button"> X </button>
+</div> 
 
-</div>
+</body> 
 
-<div class="row" id="row4">
-
-    <button type="button" id="one_button"> 1 </button>
-    <button type="button" id="two_button"> 2 </button>
-    <button type="button" id="three_button"> 3 </button>
-    <button type="button" id="subtraction_button"> - </button>
-
-</div>
-
-<div class="row" id="row5">
-
-    <button type="button" id="zero_button"> 0 </button>
-    <button type="button" id="period_button"> . </button>
-    <button type="button" id="equals_button"> = </button>
-    <button type="button" id="addition_button"> + </button>
-
-</div>
-
-</body>
-
-</html>
+</html> 

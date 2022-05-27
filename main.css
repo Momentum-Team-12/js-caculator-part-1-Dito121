@@ -1,0 +1,22 @@
+.title {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.button {
+    border: 1px solid black;
+    background-color: #a233ab;
+    height: 125px;
+    width: 125px;
+    text-align: center;
+    line-height: 125px;
+    color: white;
+    font-size: xx-large;
+}
+
+#buttonOutput {
+    width: 379px;
+}
